@@ -25,5 +25,4 @@ function getMessages() {
         })
     });
 }
-
-setInterval(getMessages(), 1500);
+var run = setInterval("getMessages()", 1500);
